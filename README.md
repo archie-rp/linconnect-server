@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 linconnect-server
+=======
+linconnect-client
+>>>>>>> upstream/master
 =================
 
 Mirror Android notifications on a Linux desktop.
 
+<<<<<<< HEAD
 LinConnect Client: https://github.com/hauckwill/linconnect-client/
 
 Introduction
@@ -27,7 +32,13 @@ Installation
 
 Simply run linconnect_server.py to start the server, then start the Android application. The Android application will detect the server and display it in the server list. Selecting it will send a test notification to the server.
 
-**Simple Setup (tested on Ubuntu 13.10)**
+**Linux Distribution Support**
+
+* Distributions Based on Debian (Ubuntu, Elementary OS, ...)
+* Distributions Based Fedora (RPM)
+* Distributions Based Arch Linux
+
+**Simple Setup (tested on Ubuntu 13.10 and Arch linux)**
 
 Enter the following command into a console to install the server, set it to autostart, and run LinConnect. The server will be automatically updated daily.
 
@@ -39,6 +50,10 @@ chmod +x install.sh; \
 
 To remove LinConnect, delete the ~/.linconnect directory.
         
+=======
+LinConnect Server: https://github.com/hauckwill/linconnect-server/
+
+>>>>>>> upstream/master
 Client Download
 ---------------
 
